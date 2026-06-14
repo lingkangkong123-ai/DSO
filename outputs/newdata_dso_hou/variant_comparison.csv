@@ -1,0 +1,3 @@
+variant,regularized,train_cd_rmse,test_cd_rmse,train_cd_mard_pct,test_cd_mard_pct,train_m_flow_rmse,test_m_flow_rmse,train_m_flow_mard_pct,test_m_flow_mard_pct,save_path
+default,False,0.002000352129728643,0.0032687624390926014,1.333798762609466,1.8685082583557868,0.17347589911889835,0.24434399446658797,1.3337987626094603,1.868508258355794,C:\Users\Link\Desktop\DSO\outputs\newdata_dso_hou\default\dso_logs\default
+regularized_low_complexity,True,0.017836179298623595,0.015289172937257763,10.416427535553762,9.814698750095936,1.6564823545121101,1.1570933059463366,10.416427535553732,9.814698750095909,C:\Users\Link\Desktop\DSO\outputs\newdata_dso_hou\reg_low\dso_logs\reg_low

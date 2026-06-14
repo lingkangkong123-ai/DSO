@@ -1,0 +1,167 @@
+PF formulas
+===========
+
+[1]
+complexity:
+5
+r:
+0.6700306983317587
+count_on_policy:
+1
+count_off_policy:
+0
+expression:
+x2*(-x4 + x5)
+traversal:
+mul,x2,sub,x5,x4
+nmse_test:
+0.242525647888
+nmse_test_noiseless:
+0.242525647888
+success:
+False
+expression_named:
+pi2*(-pi4 + pi5)
+expression_pretty:
+π₂⋅(-π₄ + π₅)
+m_flow_formula:
+Aref_m2 * (pi2*(-pi4 + pi5)) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000
+
+[2]
+complexity:
+7
+r:
+0.6838375795290158
+count_on_policy:
+1
+count_off_policy:
+0
+expression:
+x2*(x2*x5 + x5)
+traversal:
+mul,x2,add,x5,mul,x5,x2
+nmse_test:
+0.2137541567761637
+nmse_test_noiseless:
+0.2137541567761637
+success:
+False
+expression_named:
+pi2*(pi2*pi5 + pi5)
+expression_pretty:
+π₂⋅(π₂⋅π₅ + π₅)
+m_flow_formula:
+Aref_m2 * (pi2*(pi2*pi5 + pi5)) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000
+
+[3]
+complexity:
+14
+r:
+0.684106438860566
+count_on_policy:
+1
+count_off_policy:
+0
+expression:
+x2*x3*(x2 + x5/x3)
+traversal:
+mul,mul,x2,add,add,x5,x2,sub,div,x5,x3,x5,x3
+nmse_test:
+0.2132230696879833
+nmse_test_noiseless:
+0.2132230696879833
+success:
+False
+expression_named:
+pi2*pi3*(pi2 + pi5/pi3)
+expression_pretty:
+      ⎛     π₅⎞
+π₂⋅π₃⋅⎜π₂ + ──⎟
+      ⎝     π₃⎠
+m_flow_formula:
+Aref_m2 * (pi2*pi3*(pi2 + pi5/pi3)) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000
+
+[4]
+complexity:
+15
+r:
+0.6954618799503633
+count_on_policy:
+1
+count_off_policy:
+0
+expression:
+x2*(-x1 + x2*(x2 + x3*x5 + x5) + x5)
+traversal:
+mul,sub,add,mul,x2,add,add,mul,x5,x3,x5,x2,x5,x1,x2
+nmse_test:
+0.1917505704105257
+nmse_test_noiseless:
+0.1917505704105257
+success:
+False
+expression_named:
+pi2*(-pi1 + pi2*(pi2 + pi3*pi5 + pi5) + pi5)
+expression_pretty:
+π₂⋅(-π₁ + π₂⋅(π₂ + π₃⋅π₅ + π₅) + π₅)
+m_flow_formula:
+Aref_m2 * (pi2*(-pi1 + pi2*(pi2 + pi3*pi5 + pi5) + pi5)) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000
+
+[5]
+complexity:
+19
+r:
+0.7448726433335822
+count_on_policy:
+1
+count_off_policy:
+0
+expression:
+x2*x5*(-x2 + (x1 + x2)/x1) + x4
+traversal:
+add,mul,mul,sub,div,add,div,mul,x1,x2,x1,x1,x1,x2,x5,x2,x4
+nmse_test:
+0.1173140451296842
+nmse_test_noiseless:
+0.1173140451296842
+success:
+False
+expression_named:
+pi2*pi5*(-pi2 + (pi1 + pi2)/pi1) + pi4
+expression_pretty:
+      ⎛      π₁ + π₂⎞     
+π₂⋅π₅⋅⎜-π₂ + ───────⎟ + π₄
+      ⎝         π₁  ⎠     
+m_flow_formula:
+Aref_m2 * (pi2*pi5*(-pi2 + (pi1 + pi2)/pi1) + pi4) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000
+
+[6]
+complexity:
+21
+r:
+0.8119480060793756
+count_on_policy:
+1
+count_off_policy:
+0
+expression:
+x2*x3/(x2 + x3*(x4 + x5)/(x4*x5**2))
+traversal:
+div,mul,x3,x2,add,div,div,div,mul,add,x4,x5,x3,x5,x4,x5,x2
+nmse_test:
+0.053641318712231
+nmse_test_noiseless:
+0.053641318712231
+success:
+False
+expression_named:
+pi2*pi3/(pi2 + pi3*(pi4 + pi5)/(pi4*pi5**2))
+expression_pretty:
+      π₂⋅π₃      
+─────────────────
+     π₃⋅(π₄ + π₅)
+π₂ + ────────────
+             2   
+        π₄⋅π₅    
+m_flow_formula:
+Aref_m2 * (pi2*pi3/(pi2 + pi3*(pi4 + pi5)/(pi4*pi5**2))) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000

@@ -1,0 +1,73 @@
+{
+  "variant": "default",
+  "regularized": false,
+  "train_files": [
+    "fixed_data_simple_B-3W35_R290.pkl",
+    "fixed_data_simple_B-3W65_R290.pkl",
+    "fixed_data_simple_B12W35_R290.pkl",
+    "fixed_data_simple_B12W50_R290.pkl",
+    "fixed_data_simple_B12W65_R290.pkl",
+    "fixed_data_simple_B2W35_R290.pkl",
+    "fixed_data_simple_B2W50_R290.pkl",
+    "fixed_data_simple_B2W65_R290.pkl",
+    "fixed_data_simple_B7W50_R290.pkl",
+    "fixed_data_simple_B7W65_R290.pkl"
+  ],
+  "test_files": [
+    "fixed_data_simple_B-3W50_R290.pkl",
+    "fixed_data_simple_B7W35_R290.pkl"
+  ],
+  "train_samples": 63,
+  "test_samples": 13,
+  "inputs": [
+    "pi1",
+    "pi2",
+    "pi3",
+    "pi4",
+    "pi5"
+  ],
+  "cd_output": "Cd_true",
+  "mass_flow_output": "m_flow_g_s",
+  "aref_m2": 2.544690049407732e-06,
+  "best_expression_cd_raw": "(-0.0100652*x1**2 - 0.2849*x1*x2 - 0.245452*x1*x3 + 55403.3*x1*x4 - 0.0069989*x1*x5 + 0.303953*x1 - 1.42798*x2**2 - 1.72636*x2*x3 + 360813.0*x2*x4 - 0.00379307*x2*x5 + 2.26432*x2 + 9.60563*x3**2 - 302115.0*x3*x4 - 0.00189212*x3*x5 - 12.2996*x3 - 165.124*x4**2 - 551.229*x4*x5 - 3646460.0*x4 - 0.000407903*x5**2 + 0.0112442*x5 + 2.73669)*exp(x1 + x3)*exp(-x4 + exp(x2*(x5 + exp(x2)) + x4*exp(-x5)))",
+  "best_expression_cd_named": "(-0.0100652*pi1**2 - 0.2849*pi1*pi2 - 0.245452*pi1*pi3 + 55403.3*pi1*pi4 - 0.0069989*pi1*pi5 + 0.303953*pi1 - 1.42798*pi2**2 - 1.72636*pi2*pi3 + 360813.0*pi2*pi4 - 0.00379307*pi2*pi5 + 2.26432*pi2 + 9.60563*pi3**2 - 302115.0*pi3*pi4 - 0.00189212*pi3*pi5 - 12.2996*pi3 - 165.124*pi4**2 - 551.229*pi4*pi5 - 3646460.0*pi4 - 0.000407903*pi5**2 + 0.0112442*pi5 + 2.73669)*exp(pi1 + pi3)*exp(-pi4 + exp(pi2*(pi5 + exp(pi2)) + pi4*exp(-pi5)))",
+  "best_expression_cd_pretty": "                                                                              \n                                                                              \n⎛              2                                                              \n⎝- 0.0100652⋅π₁  - 0.2849⋅π₁⋅π₂ - 0.245452⋅π₁⋅π₃ + 55403.3⋅π₁⋅π₄ - 0.0069989⋅π\n\n                                                                              \n                                                                              \n                               2                                              \n₁⋅π₅ + 0.303953⋅π₁ - 1.42798⋅π₂  - 1.72636⋅π₂⋅π₃ + 360813.0⋅π₂⋅π₄ - 0.00379307\n\n                                                                              \n                                                                              \n                                2                                             \n⋅π₂⋅π₅ + 2.26432⋅π₂ + 9.60563⋅π₃  - 302115.0⋅π₃⋅π₄ - 0.00189212⋅π₃⋅π₅ - 12.299\n\n                                                                              \n                                                                              \n                 2                                                2           \n6⋅π₃ - 165.124⋅π₄  - 551.229⋅π₄⋅π₅ - 3646460.0⋅π₄ - 0.000407903⋅π₅  + 0.011244\n\n                                    ⎛      π₂⎞       -π₅\n                                 π₂⋅⎝π₅ + ℯ  ⎠ + π₄⋅ℯ   \n              ⎞  π₁ + π₃  -π₄ + ℯ                       \n2⋅π₅ + 2.73669⎠⋅ℯ       ⋅ℯ                              ",
+  "best_expression_mass_flow": "Aref_m2 * ((-0.0100652*pi1**2 - 0.2849*pi1*pi2 - 0.245452*pi1*pi3 + 55403.3*pi1*pi4 - 0.0069989*pi1*pi5 + 0.303953*pi1 - 1.42798*pi2**2 - 1.72636*pi2*pi3 + 360813.0*pi2*pi4 - 0.00379307*pi2*pi5 + 2.26432*pi2 + 9.60563*pi3**2 - 302115.0*pi3*pi4 - 0.00189212*pi3*pi5 - 12.2996*pi3 - 165.124*pi4**2 - 551.229*pi4*pi5 - 3646460.0*pi4 - 0.000407903*pi5**2 + 0.0112442*pi5 + 2.73669)*exp(pi1 + pi3)*exp(-pi4 + exp(pi2*(pi5 + exp(pi2)) + pi4*exp(-pi5)))) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000",
+  "train_cd_metrics": {
+    "mse": 4.0014086429099185e-06,
+    "rmse": 0.002000352129728643,
+    "mae": 0.0015547477754058235,
+    "mard_pct": 1.333798762609466
+  },
+  "test_cd_metrics": {
+    "mse": 1.0684807883222612e-05,
+    "rmse": 0.0032687624390926014,
+    "mae": 0.00251910918147648,
+    "mard_pct": 1.8685082583557868
+  },
+  "train_m_flow_metrics": {
+    "mse": 0.030093887575110202,
+    "rmse": 0.17347589911889835,
+    "mae": 0.1345450469711246,
+    "mard_pct": 1.3337987626094603
+  },
+  "test_m_flow_metrics": {
+    "mse": 0.05970398763188797,
+    "rmse": 0.24434399446658797,
+    "mae": 0.1935486337923886,
+    "mard_pct": 1.868508258355794
+  },
+  "save_path": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\dso_logs\\default",
+  "exported_logs": {
+    "hof": {
+      "raw_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\dso_logs\\default\\dso_outputs_newdata_dso_hou_default_train_cd_42_hof.csv",
+      "readable_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\hof_readable.csv",
+      "readable_txt": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\hof_readable.txt"
+    },
+    "pf": {
+      "raw_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\dso_logs\\default\\dso_outputs_newdata_dso_hou_default_train_cd_42_pf.csv",
+      "readable_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\pf_readable.csv",
+      "readable_txt": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\newdata_dso_hou\\default\\pf_readable.txt"
+    }
+  }
+}

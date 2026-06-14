@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650">
+<rect width="100%" height="100%" fill="white" />
+<text x="450.0" y="30" font-size="24" text-anchor="middle">DSO symbolic regression: actual vs predicted</text>
+<line x1="90.00" y1="580" x2="90.00" y2="60" stroke="#eeeeee" /><line x1="90" y1="580.00" x2="870" y2="580.00" stroke="#eeeeee" /><text x="90.00" y="602" font-size="14" text-anchor="middle">3.41</text><text x="80" y="585.00" font-size="14" text-anchor="end">3.41</text><line x1="246.00" y1="580" x2="246.00" y2="60" stroke="#eeeeee" /><line x1="90" y1="476.00" x2="870" y2="476.00" stroke="#eeeeee" /><text x="246.00" y="602" font-size="14" text-anchor="middle">8.82</text><text x="80" y="481.00" font-size="14" text-anchor="end">8.82</text><line x1="402.00" y1="580" x2="402.00" y2="60" stroke="#eeeeee" /><line x1="90" y1="372.00" x2="870" y2="372.00" stroke="#eeeeee" /><text x="402.00" y="602" font-size="14" text-anchor="middle">14.22</text><text x="80" y="377.00" font-size="14" text-anchor="end">14.22</text><line x1="558.00" y1="580" x2="558.00" y2="60" stroke="#eeeeee" /><line x1="90" y1="268.00" x2="870" y2="268.00" stroke="#eeeeee" /><text x="558.00" y="602" font-size="14" text-anchor="middle">19.63</text><text x="80" y="273.00" font-size="14" text-anchor="end">19.63</text><line x1="714.00" y1="580" x2="714.00" y2="60" stroke="#eeeeee" /><line x1="90" y1="164.00" x2="870" y2="164.00" stroke="#eeeeee" /><text x="714.00" y="602" font-size="14" text-anchor="middle">25.03</text><text x="80" y="169.00" font-size="14" text-anchor="end">25.03</text><line x1="870.00" y1="580" x2="870.00" y2="60" stroke="#eeeeee" /><line x1="90" y1="60.00" x2="870" y2="60.00" stroke="#eeeeee" /><text x="870.00" y="602" font-size="14" text-anchor="middle">30.44</text><text x="80" y="65.00" font-size="14" text-anchor="end">30.44</text>
+<rect x="90" y="60" width="780" height="520" fill="none" stroke="#222222" />
+<line x1="90.00" y1="580.00" x2="870.00" y2="60.00" stroke="#333333" stroke-dasharray="6 4" />
+<circle cx="162.97" cy="529.20" r="4" fill="#1f77b4" />
+<circle cx="221.57" cy="498.77" r="4" fill="#1f77b4" />
+<circle cx="278.84" cy="451.15" r="4" fill="#1f77b4" />
+<circle cx="337.44" cy="413.32" r="4" fill="#1f77b4" />
+<circle cx="448.89" cy="341.77" r="4" fill="#1f77b4" />
+<circle cx="536.30" cy="284.92" r="4" fill="#1f77b4" />
+<circle cx="198.55" cy="508.68" r="4" fill="#1f77b4" />
+<circle cx="254.62" cy="469.98" r="4" fill="#1f77b4" />
+<circle cx="313.38" cy="430.84" r="4" fill="#1f77b4" />
+<circle cx="425.53" cy="357.80" r="4" fill="#1f77b4" />
+<circle cx="484.79" cy="316.46" r="4" fill="#1f77b4" />
+<circle cx="165.06" cy="529.59" r="4" fill="#1f77b4" />
+<circle cx="249.21" cy="472.86" r="4" fill="#1f77b4" />
+<circle cx="338.52" cy="414.77" r="4" fill="#1f77b4" />
+<circle cx="431.81" cy="352.39" r="4" fill="#1f77b4" />
+<circle cx="515.22" cy="297.84" r="4" fill="#1f77b4" />
+<circle cx="693.84" cy="176.81" r="4" fill="#1f77b4" />
+<circle cx="764.55" cy="132.05" r="4" fill="#1f77b4" />
+<circle cx="154.04" cy="539.95" r="4" fill="#1f77b4" />
+<circle cx="238.13" cy="483.59" r="4" fill="#1f77b4" />
+<circle cx="324.76" cy="417.78" r="4" fill="#1f77b4" />
+<circle cx="414.34" cy="367.16" r="4" fill="#1f77b4" />
+<circle cx="500.36" cy="306.58" r="4" fill="#1f77b4" />
+<circle cx="669.99" cy="192.04" r="4" fill="#1f77b4" />
+<circle cx="832.41" cy="83.64" r="4" fill="#1f77b4" />
+<circle cx="218.42" cy="494.48" r="4" fill="#1f77b4" />
+<circle cx="304.68" cy="431.46" r="4" fill="#1f77b4" />
+<circle cx="393.63" cy="378.10" r="4" fill="#1f77b4" />
+<circle cx="479.82" cy="321.05" r="4" fill="#1f77b4" />
+<circle cx="653.62" cy="207.83" r="4" fill="#1f77b4" />
+<circle cx="678.75" cy="185.13" r="4" fill="#1f77b4" />
+<circle cx="125.45" cy="553.26" r="4" fill="#1f77b4" />
+<circle cx="189.74" cy="517.11" r="4" fill="#1f77b4" />
+<circle cx="254.59" cy="475.26" r="4" fill="#1f77b4" />
+<circle cx="319.30" cy="424.38" r="4" fill="#1f77b4" />
+<circle cx="383.87" cy="379.68" r="4" fill="#1f77b4" />
+<circle cx="516.46" cy="296.12" r="4" fill="#1f77b4" />
+<circle cx="622.05" cy="223.05" r="4" fill="#1f77b4" />
+<circle cx="178.19" cy="520.34" r="4" fill="#1f77b4" />
+<circle cx="244.01" cy="484.07" r="4" fill="#1f77b4" />
+<circle cx="312.26" cy="424.21" r="4" fill="#1f77b4" />
+<circle cx="378.42" cy="384.90" r="4" fill="#1f77b4" />
+<circle cx="508.81" cy="303.50" r="4" fill="#1f77b4" />
+<circle cx="621.96" cy="228.46" r="4" fill="#1f77b4" />
+<circle cx="165.62" cy="521.27" r="4" fill="#1f77b4" />
+<circle cx="227.15" cy="492.13" r="4" fill="#1f77b4" />
+<circle cx="290.14" cy="448.33" r="4" fill="#1f77b4" />
+<circle cx="351.93" cy="402.32" r="4" fill="#1f77b4" />
+<circle cx="490.53" cy="317.19" r="4" fill="#1f77b4" />
+<circle cx="561.05" cy="262.88" r="4" fill="#1f77b4" />
+<circle cx="131.97" cy="547.10" r="4" fill="#1f77b4" />
+<circle cx="203.13" cy="502.78" r="4" fill="#1f77b4" />
+<circle cx="281.24" cy="461.65" r="4" fill="#1f77b4" />
+<circle cx="358.15" cy="400.26" r="4" fill="#1f77b4" />
+<circle cx="434.30" cy="347.87" r="4" fill="#1f77b4" />
+<circle cx="584.21" cy="254.85" r="4" fill="#1f77b4" />
+<circle cx="730.15" cy="152.22" r="4" fill="#1f77b4" />
+<circle cx="188.71" cy="518.61" r="4" fill="#1f77b4" />
+<circle cx="262.92" cy="468.73" r="4" fill="#1f77b4" />
+<circle cx="345.39" cy="409.79" r="4" fill="#1f77b4" />
+<circle cx="418.04" cy="365.14" r="4" fill="#1f77b4" />
+<circle cx="567.89" cy="260.88" r="4" fill="#1f77b4" />
+<circle cx="616.97" cy="228.96" r="4" fill="#1f77b4" />
+<circle cx="151.67" cy="539.58" r="4" fill="#ff7f0e" />
+<circle cx="208.92" cy="496.91" r="4" fill="#ff7f0e" />
+<circle cx="264.79" cy="469.62" r="4" fill="#ff7f0e" />
+<circle cx="325.77" cy="416.48" r="4" fill="#ff7f0e" />
+<circle cx="436.14" cy="346.71" r="4" fill="#ff7f0e" />
+<circle cx="557.74" cy="267.58" r="4" fill="#ff7f0e" />
+<circle cx="145.53" cy="541.49" r="4" fill="#ff7f0e" />
+<circle cx="216.26" cy="507.20" r="4" fill="#ff7f0e" />
+<circle cx="294.46" cy="446.45" r="4" fill="#ff7f0e" />
+<circle cx="372.72" cy="392.16" r="4" fill="#ff7f0e" />
+<circle cx="446.05" cy="338.74" r="4" fill="#ff7f0e" />
+<circle cx="602.22" cy="243.21" r="4" fill="#ff7f0e" />
+<circle cx="720.97" cy="162.69" r="4" fill="#ff7f0e" />
+<text x="450.0" y="630" font-size="18" text-anchor="middle">Actual mass flow (g/s)</text>
+<text x="25" y="325.0" font-size="18" text-anchor="middle" transform="rotate(-90 25 325.0)">Predicted mass flow (g/s)</text>
+<circle cx="110" cy="80" r="5" fill="#1f77b4" /><text x="125" y="85" font-size="15">Train</text>
+<circle cx="110" cy="105" r="5" fill="#ff7f0e" /><text x="125" y="110" font-size="15">Test</text>
+</svg>
