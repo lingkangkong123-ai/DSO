@@ -1,7 +1,0 @@
-complexity,r,count_on_policy,count_off_policy,expression,traversal,nmse_test,nmse_test_noiseless,success
-5,0.6700306983317587,1,0,x2*(-x4 + x5),"mul,x2,sub,x5,x4",0.242525647888,0.242525647888,False
-7,0.6838375795290158,1,0,x2*(x2*x5 + x5),"mul,x2,add,x5,mul,x5,x2",0.21375415677616375,0.21375415677616375,False
-14,0.684106438860566,1,0,x2*x3*(x2 + x5/x3),"mul,mul,x2,add,add,x5,x2,sub,div,x5,x3,x5,x3",0.21322306968798335,0.21322306968798335,False
-15,0.6954618799503633,1,0,x2*(-x1 + x2*(x2 + x3*x5 + x5) + x5),"mul,sub,add,mul,x2,add,add,mul,x5,x3,x5,x2,x5,x1,x2",0.19175057041052573,0.19175057041052573,False
-19,0.7448726433335822,1,0,x2*x5*(-x2 + (x1 + x2)/x1) + x4,"add,mul,mul,sub,div,add,div,mul,x1,x2,x1,x1,x1,x2,x5,x2,x4",0.11731404512968427,0.11731404512968427,False
-21,0.8119480060793756,1,0,x2*x3/(x2 + x3*(x4 + x5)/(x4*x5**2)),"div,mul,x3,x2,add,div,div,div,mul,add,x4,x5,x3,x5,x4,x5,x2",0.05364131871223104,0.05364131871223104,False

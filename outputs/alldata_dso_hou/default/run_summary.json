@@ -1,0 +1,70 @@
+{
+  "variant": "default",
+  "regularized": false,
+  "train_samples": 124,
+  "seen_test_samples": 33,
+  "unseen_test_samples": 8,
+  "inputs": [
+    "pi1",
+    "pi2",
+    "pi3",
+    "pi4",
+    "pi5"
+  ],
+  "cd_output": "Cd_true",
+  "mass_flow_output": "m_flow_g_s",
+  "unseen_refrigerant": "R134a",
+  "best_expression_cd_raw": "x3 + (log(log(x3)) - (x5 + exp(-x2)/x2)/x1)*(1.54352*x1**2 - 164.273*x1*x2 - 1.60107*x1*x3 + 848635.0*x1*x4 - 0.943401*x1*x5 + 3.53928*x1 + 210.467*x2**2 + 48.6829*x2*x3 - 11273900.0*x2*x4 - 24.1892*x2*x5 - 6.17326*x2 - 0.694736*x3**2 + 177313.0*x3*x4 - 0.148341*x3*x5 + 1.99027*x3 + 285.863*x4**2 + 68788.7*x4*x5 - 402955.0*x4 + 0.000698091*x5**2 + 0.409324*x5 - 2.05623)",
+  "best_expression_cd_named": "pi3 + (log(log(pi3)) - (pi5 + exp(-pi2)/pi2)/pi1)*(1.54352*pi1**2 - 164.273*pi1*pi2 - 1.60107*pi1*pi3 + 848635.0*pi1*pi4 - 0.943401*pi1*pi5 + 3.53928*pi1 + 210.467*pi2**2 + 48.6829*pi2*pi3 - 11273900.0*pi2*pi4 - 24.1892*pi2*pi5 - 6.17326*pi2 - 0.694736*pi3**2 + 177313.0*pi3*pi4 - 0.148341*pi3*pi5 + 1.99027*pi3 + 285.863*pi4**2 + 68788.7*pi4*pi5 - 402955.0*pi4 + 0.000698091*pi5**2 + 0.409324*pi5 - 2.05623)",
+  "best_expression_cd_pretty": "      /                       -pi2\\                                           \n      |                      e    |                                           \n      |                pi5 + -----|                                           \n      |                       pi2 | /           2                             \npi3 + |log(log(pi3)) - -----------|*\\1.54352*pi1  - 164.273*pi1*pi2 - 1.60107*\n      \\                    pi1    /                                           \n\n                                                                              \n                                                                              \n                                                                              \n                                                                         2    \npi1*pi3 + 848635.0*pi1*pi4 - 0.943401*pi1*pi5 + 3.53928*pi1 + 210.467*pi2  + 4\n                                                                              \n\n                                                                              \n                                                                              \n                                                                              \n                                                                              \n8.6829*pi2*pi3 - 11273900.0*pi2*pi4 - 24.1892*pi2*pi5 - 6.17326*pi2 - 0.694736\n                                                                              \n\n                                                                              \n                                                                              \n                                                                              \n    2                                                                  2      \n*pi3  + 177313.0*pi3*pi4 - 0.148341*pi3*pi5 + 1.99027*pi3 + 285.863*pi4  + 687\n                                                                              \n\n                                                                        \n                                                                        \n                                                                        \n                                             2                         \\\n88.7*pi4*pi5 - 402955.0*pi4 + 0.000698091*pi5  + 0.409324*pi5 - 2.05623/\n                                                                        ",
+  "best_expression_mass_flow": "Aref_m2 * (pi3 + (log(log(pi3)) - (pi5 + exp(-pi2)/pi2)/pi1)*(1.54352*pi1**2 - 164.273*pi1*pi2 - 1.60107*pi1*pi3 + 848635.0*pi1*pi4 - 0.943401*pi1*pi5 + 3.53928*pi1 + 210.467*pi2**2 + 48.6829*pi2*pi3 - 11273900.0*pi2*pi4 - 24.1892*pi2*pi5 - 6.17326*pi2 - 0.694736*pi3**2 + 177313.0*pi3*pi4 - 0.148341*pi3*pi5 + 1.99027*pi3 + 285.863*pi4**2 + 68788.7*pi4*pi5 - 402955.0*pi4 + 0.000698091*pi5**2 + 0.409324*pi5 - 2.05623)) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000",
+  "train_cd_metrics": {
+    "mse": 104.03971628615919,
+    "rmse": 10.199986092449302,
+    "mae": 6.627347738964869,
+    "mard_pct": 5.497507116322849
+  },
+  "seen_test_cd_metrics": {
+    "mse": 43.58731213370343,
+    "rmse": 6.602068776808026,
+    "mae": 4.719629423621503,
+    "mard_pct": 3.8255306317246163
+  },
+  "unseen_test_cd_metrics": {
+    "mse": 280.1953267288378,
+    "rmse": 16.73903601551887,
+    "mae": 12.586859990348861,
+    "mard_pct": 7.5197672938024995
+  },
+  "train_m_flow_metrics": {
+    "mse": 527248.5955503234,
+    "rmse": 726.1188577294514,
+    "mae": 503.3464705734818,
+    "mard_pct": 5.49750711632285
+  },
+  "seen_test_m_flow_metrics": {
+    "mse": 209549.75305696458,
+    "rmse": 457.76604620369625,
+    "mae": 354.79293892692385,
+    "mard_pct": 3.8255306317246154
+  },
+  "unseen_test_m_flow_metrics": {
+    "mse": 2741641.6208911072,
+    "rmse": 1655.790331198702,
+    "mae": 1293.0872996263577,
+    "mard_pct": 7.5197672938024995
+  },
+  "save_path": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\dso_logs\\default",
+  "exported_logs": {
+    "hof": {
+      "raw_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\dso_logs\\default\\dso_outputs_alldata_dso_hou_default_train_cd_42_hof.csv",
+      "readable_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\hof_readable.csv",
+      "readable_txt": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\hof_readable.txt"
+    },
+    "pf": {
+      "raw_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\dso_logs\\default\\dso_outputs_alldata_dso_hou_default_train_cd_42_pf.csv",
+      "readable_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\pf_readable.csv",
+      "readable_txt": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\default\\pf_readable.txt"
+    }
+  }
+}

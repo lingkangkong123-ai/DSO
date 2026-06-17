@@ -1,0 +1,603 @@
+{
+  "all_samples": 165,
+  "independent_dataset_count": 35,
+  "dirty_files_skipped": [
+    {
+      "file": "fixed_data_ihx_55_R1270.pkl",
+      "reason": "known_dirty_from_readme",
+      "folder": "newdata2",
+      "refrigerant": "R1270"
+    }
+  ],
+  "inputs": [
+    "pi1",
+    "pi2",
+    "pi3",
+    "pi4",
+    "pi5"
+  ],
+  "cd_output": "Cd_true",
+  "mass_flow_output": "m_flow_g_s",
+  "dmax_m": 0.0018,
+  "aref_m2": 2.544690049407732e-06,
+  "manifest": [
+    {
+      "file": "fixed_data_simple_35_R1234yf.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R1234yf",
+      "refrigerant": "R1234yf",
+      "system_label": "simple",
+      "dataset_sha256": "ef9f2deacaaa2014b45f866e9128a6afbace73db67c4cfff732f8b3bb0ea91bd",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R1234yf.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R1234yf",
+      "refrigerant": "R1234yf",
+      "system_label": "simple",
+      "dataset_sha256": "442a32d54e323887922674f6eed4dd2a59865c2792ea02a47974410b26b0a871",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R1234yf_R32_64_36.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R1234yf_R32_64_36",
+      "refrigerant": "R1234yf_R32_64_36",
+      "system_label": "simple",
+      "dataset_sha256": "4df3f819626f238fc391778b9d369db110f3e06be0042b605d867c2614dcd645",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_ihx_35_R1270.pkl",
+      "folder": "newdata2",
+      "family": "35_R1270",
+      "refrigerant": "R1270",
+      "system_label": "ihx",
+      "dataset_sha256": "5bc8b586deb2718e9dc43489e81e37e46cfb3eb36219c59dc0dd6de20034fe12",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R1270.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R1270",
+      "refrigerant": "R1270",
+      "system_label": "simple",
+      "dataset_sha256": "f503e801edc5c02881552a35a20b326517df0b0de1d114d1a8e2ddd2002aa734",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R1270_2.pkl",
+      "folder": "newdata2",
+      "family": "35_R1270_2",
+      "refrigerant": "R1270",
+      "system_label": "simple",
+      "dataset_sha256": "599825fcdb80c712f4c0b0f71310567db4382a9d3a2c195374f6aaac9069a3c4",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R1270_3.pkl",
+      "folder": "newdata2",
+      "family": "35_R1270_3",
+      "refrigerant": "R1270",
+      "system_label": "simple",
+      "dataset_sha256": "2e8e69c7541a9af70b7e0e155e19ff7e083d969e8e638bd6a604209f67f5f776",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R1270_4.pkl",
+      "folder": "newdata2",
+      "family": "35_R1270_4",
+      "refrigerant": "R1270",
+      "system_label": "simple",
+      "dataset_sha256": "1eeefe8f570324ab4bd110a250200c2069b60cfecfdea9e10e379a90944341ad",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R1270.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R1270",
+      "refrigerant": "R1270",
+      "system_label": "simple",
+      "dataset_sha256": "f796b9c08cffcdcbea4cbd414f96c7e0eebdf22decebc8f5d82a86dd172498fb",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R1270_R600a_92_8.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R1270_R600a_92_8",
+      "refrigerant": "R1270_R600a_92_8",
+      "system_label": "simple",
+      "dataset_sha256": "b39a6275571a45a5f8ee859e8f965b04d026914139968de4d0e96f8c9e3a0441",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R1270_R600a_92_8.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R1270_R600a_92_8",
+      "refrigerant": "R1270_R600a_92_8",
+      "system_label": "simple",
+      "dataset_sha256": "73835ec158e10a5de4b0561bb89804957d6999be27b525cf4c0fdafb0ec7e027",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R134a_2.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R134a_2",
+      "refrigerant": "R134a",
+      "system_label": "simple",
+      "dataset_sha256": "47147a7c3315b81daa2d6b189b27f470505fff2812fd79c63eea84bff4843042",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R134a.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R134a",
+      "refrigerant": "R134a",
+      "system_label": "simple",
+      "dataset_sha256": "f674bd1d297566eb8b48f6880c6aee865e9d6db3faf2d2b59551e4ead3bc87ab",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R290.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "936d7036dc66eac695c74c686911442cfacc3defd7c48f61326a9aa4788d4b0c",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R290.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "5a52637b827ed4f9a4df76a67eba44595600dc7cdc787c1dcb1139e578bc91dc",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_B-3W35_R290.pkl",
+      "folder": "newdata",
+      "family": "B-3W35_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "567df573246234e64ffa218e4df1035430965cb9bad33c4e049f100d06470819",
+      "rows_after_cleaning": 6
+    },
+    {
+      "file": "fixed_data_simple_B-3W50_R290.pkl",
+      "folder": "newdata",
+      "family": "B-3W50_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "f8a910f886bec192b4ebc58f4596d662b65e0b6a06c2560193d2469066751603",
+      "rows_after_cleaning": 6
+    },
+    {
+      "file": "fixed_data_simple_B-3W65_R290.pkl",
+      "folder": "newdata",
+      "family": "B-3W65_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "0a635d475d6c9c6b3d00a3bc24a0857cd9f7bf40410c912b3028c88f61b28e57",
+      "rows_after_cleaning": 5
+    },
+    {
+      "file": "fixed_data_simple_B12W35_R290.pkl",
+      "folder": "newdata",
+      "family": "B12W35_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "04e5d2544da4178cd1e5f266d92f054dcabd4c9bc53790a4137877da8cbe5641",
+      "rows_after_cleaning": 7
+    },
+    {
+      "file": "fixed_data_simple_B12W50_R290.pkl",
+      "folder": "newdata",
+      "family": "B12W50_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "724c70e8d830fd59ca37cf1165495d577205fe77abf3f7cde841fd130bc4e492",
+      "rows_after_cleaning": 7
+    },
+    {
+      "file": "fixed_data_simple_B12W65_R290.pkl",
+      "folder": "newdata",
+      "family": "B12W65_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "2bbd8c857fa16d231d7e5a43e10ffd8679f503e860350f488b1c2a00104759a1",
+      "rows_after_cleaning": 6
+    },
+    {
+      "file": "fixed_data_simple_B2W35_R290.pkl",
+      "folder": "newdata",
+      "family": "B2W35_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "8527446be505a216a7db933e163be51d80abc6bc4152276c1bbee8df37125695",
+      "rows_after_cleaning": 7
+    },
+    {
+      "file": "fixed_data_simple_B2W50_R290.pkl",
+      "folder": "newdata",
+      "family": "B2W50_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "f01183a5fe4792ee0ccf78fd9cb885f3aa59e67eb9afdd62384f34e4df694a3e",
+      "rows_after_cleaning": 6
+    },
+    {
+      "file": "fixed_data_simple_B2W65_R290.pkl",
+      "folder": "newdata",
+      "family": "B2W65_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "07aaa2941c92270d42259117555fdea6b791250bc264a886505af82ff60c5203",
+      "rows_after_cleaning": 6
+    },
+    {
+      "file": "fixed_data_simple_B7W35_R290.pkl",
+      "folder": "newdata",
+      "family": "B7W35_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "04803d0ed89c1a0ee0181529125ef81854c8ec9e1b1f90a2d63a18fbd814d02a",
+      "rows_after_cleaning": 7
+    },
+    {
+      "file": "fixed_data_simple_B7W50_R290.pkl",
+      "folder": "newdata",
+      "family": "B7W50_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "02e187c1237745bfb4884df0f4f97f90890cdec5e7865304c0626e4a15e9ea3f",
+      "rows_after_cleaning": 7
+    },
+    {
+      "file": "fixed_data_simple_B7W65_R290.pkl",
+      "folder": "newdata",
+      "family": "B7W65_R290",
+      "refrigerant": "R290",
+      "system_label": "simple",
+      "dataset_sha256": "e5ef531d2e106ab297c599fdf0bce71df5d8aeadf35d666859c2446cb277db06",
+      "rows_after_cleaning": 6
+    },
+    {
+      "file": "fixed_data_simple_35_R290_R600a_63_37.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R290_R600a_63_37",
+      "refrigerant": "R290_R600a_63_37",
+      "system_label": "simple",
+      "dataset_sha256": "9702c672a7eb7b0964bf05460feb05be4503b4ea42f412a890bfb6421bdcda3b",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R290_R600a_63_37.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R290_R600a_63_37",
+      "refrigerant": "R290_R600a_63_37",
+      "system_label": "simple",
+      "dataset_sha256": "e05e23315ec90ce3f4c5ddf3d61d0d0023e81e4a80c9c00dcff9b71b4a7c2ea2",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_35_R290_R600a_82_18.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R290_R600a_82_18",
+      "refrigerant": "R290_R600a_82_18",
+      "system_label": "simple",
+      "dataset_sha256": "6c5d9ec76a40345ca06ae527c40555646bc3288edd55468ba87ef010a79bbd11",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_simple_55_R290_R600a_82_18.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R290_R600a_82_18",
+      "refrigerant": "R290_R600a_82_18",
+      "system_label": "simple",
+      "dataset_sha256": "34f429785ceb8a94b79309d81164745a86a97c308985bfbbd69d7c6b6cd679ed",
+      "rows_after_cleaning": 4
+    },
+    {
+      "file": "fixed_data_ihx_35_R600a.pkl",
+      "folder": "newdata2",
+      "family": "35_R600a",
+      "refrigerant": "R600a",
+      "system_label": "ihx",
+      "dataset_sha256": "0beb22b1102afc3d143e094541d7cd2ee6a84a0f78444cd518b0a2e3dfab6a0b",
+      "rows_after_cleaning": 3
+    },
+    {
+      "file": "fixed_data_simple_35_R600a.pkl",
+      "folder": "Daten LOGIN",
+      "family": "35_R600a",
+      "refrigerant": "R600a",
+      "system_label": "simple",
+      "dataset_sha256": "1dd9668ae0440c1dd0ce084798cdbad7855b964c18db62de77e364b9632b59c2",
+      "rows_after_cleaning": 3
+    },
+    {
+      "file": "fixed_data_ihx_55_R600a.pkl",
+      "folder": "newdata2",
+      "family": "55_R600a",
+      "refrigerant": "R600a",
+      "system_label": "ihx",
+      "dataset_sha256": "84e8836229595849d84ce4476e250a70f2ecb1751bd2b028ed8ac2524a9eb3c5",
+      "rows_after_cleaning": 3
+    },
+    {
+      "file": "fixed_data_simple_55_R600a.pkl",
+      "folder": "Daten LOGIN",
+      "family": "55_R600a",
+      "refrigerant": "R600a",
+      "system_label": "simple",
+      "dataset_sha256": "00f6cd2dfcfda56c0c6e3280206f391c7ae7411c1c36352cf4c7a78eef3c2695",
+      "rows_after_cleaning": 4
+    }
+  ],
+  "split_summary": {
+    "unseen_refrigerant": "R134a",
+    "seen_test_fraction": 0.25,
+    "train_samples": 124,
+    "seen_test_samples": 33,
+    "unseen_test_samples": 8,
+    "train_refrigerants": [
+      "R1234yf",
+      "R1234yf_R32_64_36",
+      "R1270",
+      "R1270_R600a_92_8",
+      "R290",
+      "R290_R600a_63_37",
+      "R290_R600a_82_18",
+      "R600a"
+    ],
+    "seen_test_refrigerants": [
+      "R1234yf",
+      "R1234yf_R32_64_36",
+      "R1270",
+      "R1270_R600a_92_8",
+      "R290",
+      "R290_R600a_63_37",
+      "R290_R600a_82_18",
+      "R600a"
+    ],
+    "unseen_test_refrigerants": [
+      "R134a"
+    ],
+    "seen_split_manifest": [
+      {
+        "source_file": "fixed_data_ihx_35_R1270.pkl",
+        "refrigerant": "R1270",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_ihx_35_R600a.pkl",
+        "refrigerant": "R600a",
+        "rows_total": 3,
+        "rows_train": 2,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_ihx_55_R600a.pkl",
+        "refrigerant": "R600a",
+        "rows_total": 3,
+        "rows_train": 2,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1234yf.pkl",
+        "refrigerant": "R1234yf",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1234yf_R32_64_36.pkl",
+        "refrigerant": "R1234yf_R32_64_36",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1270.pkl",
+        "refrigerant": "R1270",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1270_2.pkl",
+        "refrigerant": "R1270",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1270_3.pkl",
+        "refrigerant": "R1270",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1270_4.pkl",
+        "refrigerant": "R1270",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R1270_R600a_92_8.pkl",
+        "refrigerant": "R1270_R600a_92_8",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R290_R600a_63_37.pkl",
+        "refrigerant": "R290_R600a_63_37",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R290_R600a_82_18.pkl",
+        "refrigerant": "R290_R600a_82_18",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_35_R600a.pkl",
+        "refrigerant": "R600a",
+        "rows_total": 3,
+        "rows_train": 2,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R1234yf.pkl",
+        "refrigerant": "R1234yf",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R1270.pkl",
+        "refrigerant": "R1270",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R1270_R600a_92_8.pkl",
+        "refrigerant": "R1270_R600a_92_8",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R290_R600a_63_37.pkl",
+        "refrigerant": "R290_R600a_63_37",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R290_R600a_82_18.pkl",
+        "refrigerant": "R290_R600a_82_18",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_55_R600a.pkl",
+        "refrigerant": "R600a",
+        "rows_total": 4,
+        "rows_train": 3,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B-3W35_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 6,
+        "rows_train": 5,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B-3W50_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 6,
+        "rows_train": 5,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B-3W65_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 5,
+        "rows_train": 4,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B12W35_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 7,
+        "rows_train": 6,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B12W50_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 7,
+        "rows_train": 6,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B12W65_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 6,
+        "rows_train": 5,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B2W35_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 7,
+        "rows_train": 6,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B2W50_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 6,
+        "rows_train": 5,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B2W65_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 6,
+        "rows_train": 5,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B7W35_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 7,
+        "rows_train": 6,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B7W50_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 7,
+        "rows_train": 6,
+        "rows_seen_test": 1
+      },
+      {
+        "source_file": "fixed_data_simple_B7W65_R290.pkl",
+        "refrigerant": "R290",
+        "rows_total": 6,
+        "rows_train": 5,
+        "rows_seen_test": 1
+      }
+    ]
+  }
+}

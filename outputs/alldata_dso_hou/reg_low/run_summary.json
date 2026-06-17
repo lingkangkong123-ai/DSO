@@ -1,0 +1,70 @@
+{
+  "variant": "regularized_low_complexity",
+  "regularized": true,
+  "train_samples": 124,
+  "seen_test_samples": 33,
+  "unseen_test_samples": 8,
+  "inputs": [
+    "pi1",
+    "pi2",
+    "pi3",
+    "pi4",
+    "pi5"
+  ],
+  "cd_output": "Cd_true",
+  "mass_flow_output": "m_flow_g_s",
+  "unseen_refrigerant": "R134a",
+  "best_expression_cd_raw": "x5*(x2*x5 + x3/x5)/x2",
+  "best_expression_cd_named": "pi5*(pi2*pi5 + pi3/pi5)/pi2",
+  "best_expression_cd_pretty": "    /          pi3\\\npi5*|pi2*pi5 + ---|\n    \\          pi5/\n-------------------\n        pi2        ",
+  "best_expression_mass_flow": "Aref_m2 * (pi5*(pi2*pi5 + pi3/pi5)/pi2) * sqrt(2 * rho_in_kg_m3 * deltaP_Pa) * 1000",
+  "train_cd_metrics": {
+    "mse": 8737.651413513393,
+    "rmse": 93.47540539368306,
+    "mae": 71.66709079947209,
+    "mard_pct": 45.756479554348
+  },
+  "seen_test_cd_metrics": {
+    "mse": 4077.371929521953,
+    "rmse": 63.854302357178355,
+    "mae": 55.185690269549305,
+    "mard_pct": 37.214980885649176
+  },
+  "unseen_test_cd_metrics": {
+    "mse": 3874.5009105953795,
+    "rmse": 62.24548907828888,
+    "mae": 54.31621398176815,
+    "mard_pct": 36.38031748732162
+  },
+  "train_m_flow_metrics": {
+    "mse": 60748923.332230486,
+    "rmse": 7794.159565484305,
+    "mae": 5977.229106375299,
+    "mard_pct": 45.756479554348
+  },
+  "seen_test_m_flow_metrics": {
+    "mse": 28179922.985060275,
+    "rmse": 5308.476522040978,
+    "mae": 4552.366369465782,
+    "mard_pct": 37.214980885649176
+  },
+  "unseen_test_m_flow_metrics": {
+    "mse": 50332094.14471742,
+    "rmse": 7094.511550819931,
+    "mae": 6250.6207856832225,
+    "mard_pct": 36.38031748732162
+  },
+  "save_path": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\dso_logs\\reg_low",
+  "exported_logs": {
+    "hof": {
+      "raw_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\dso_logs\\reg_low\\dso_outputs_alldata_dso_hou_reg_low_train_cd_42_hof.csv",
+      "readable_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\hof_readable.csv",
+      "readable_txt": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\hof_readable.txt"
+    },
+    "pf": {
+      "raw_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\dso_logs\\reg_low\\dso_outputs_alldata_dso_hou_reg_low_train_cd_42_pf.csv",
+      "readable_csv": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\pf_readable.csv",
+      "readable_txt": "C:\\Users\\Link\\Desktop\\DSO\\outputs\\alldata_dso_hou\\reg_low\\pf_readable.txt"
+    }
+  }
+}
